@@ -64,9 +64,6 @@ const App = () => {
     <div className="app">
       <canvas ref={canvasRef} />
       <div id="copyright-notice"></div>
-      <div className="description">
-        HERE Office Locations <br /> Around the World
-      </div>
     </div>
   );
 };
