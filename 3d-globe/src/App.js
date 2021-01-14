@@ -8,7 +8,6 @@ import { theme, copyrightInfo } from './config';
 
 const minZoomLevel = 3;
 const maxZoomLevel = 10;
-console.log(process.env)
 
 
 const baseMap = new OmvDataSource({
