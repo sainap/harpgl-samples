@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@here/harp-datasource-protocol": "^0.21.1",
-    "@here/harp-fontcatalog": "0.1.5",
+    "@here/harp-fontcatalog": "^0.1.6",
     "@here/harp-geojson-datasource": "0.16.0",
     "@here/harp-map-controls": "0.16.0",
     "@here/harp-map-theme": "0.16.0",
@@ -14,7 +14,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "3.4.1",
-    "three": "0.117.1"
+    "three": "^0.117.1"
   },
   "scripts": {
     "start": "react-scripts start",
