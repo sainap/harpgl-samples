@@ -6,7 +6,7 @@
     "@here/harp-datasource-protocol": "^0.21.1",
     "@here/harp-fontcatalog": "^0.1.6",
     "@here/harp-geojson-datasource": "0.16.0",
-    "@here/harp-map-controls": "0.16.0",
+    "@here/harp-map-controls": "^0.21.1",
     "@here/harp-map-theme": "0.16.0",
     "@here/harp-mapview": "0.16.0",
     "@here/harp-omv-datasource": "0.16.0",
