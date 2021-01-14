@@ -3,14 +3,14 @@ import React, { useEffect, useRef } from 'react';
 import { sphereProjection } from '@here/harp-geoutils';
 import { MapControls, MapControlsUI } from '@here/harp-map-controls';
 import { CopyrightElementHandler, MapView } from '@here/harp-mapview';
-import { APIFormat, AuthenticationMethod, OmvDataSource } from '@here/harp-omv-datasource';
+import { APIFormat, AuthenticationMethod, VectorTileDataSource } from '@here/harp-vectortile-datasource';
 import { theme, copyrightInfo } from './config';
 
 const minZoomLevel = 3;
 const maxZoomLevel = 10;
 
 
-const baseMap = new OmvDataSource({
+const baseMap = new VectorTileDataSource({
   baseUrl: 'https://vector.hereapi.com/v2/vectortiles/base/mc',
   apiFormat: APIFormat.XYZOMV,
   styleSetName: 'tilezen',
