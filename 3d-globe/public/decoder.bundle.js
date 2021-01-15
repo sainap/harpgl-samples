@@ -94,7 +94,7 @@
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _here_harp_omv_datasource_index_worker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @here/harp-omv-datasource/index-worker */ \"./node_modules/@here/harp-omv-datasource/index-worker.js\");\n/* harmony import */ var _here_harp_omv_datasource_index_worker__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_here_harp_omv_datasource_index_worker__WEBPACK_IMPORTED_MODULE_0__);\n\n\n_here_harp_omv_datasource_index_worker__WEBPACK_IMPORTED_MODULE_0__[\"OmvTileDecoderService\"].start();\n\n\n//# sourceURL=webpack:///./harp-gl-decoder.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _here_harp_vectortile_datasource_index_worker__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @here/harp-vectortile-datasource/index-worker */ \"./node_modules/@here/harp-vectortile-datasource/index-worker.js\");\n/* harmony import */ var _here_harp_vectortile_datasource_index_worker__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_here_harp_vectortile_datasource_index_worker__WEBPACK_IMPORTED_MODULE_0__);\n\n\n_here_harp_vectortile_datasource_index_worker__WEBPACK_IMPORTED_MODULE_0__[\"VectorTileDecoderService\"].start();\n_here_harp_vectortile_datasource_index_worker__WEBPACK_IMPORTED_MODULE_0__[\"GeoJsonTilerService\"].start();\n\n\n//# sourceURL=webpack:///./harp-gl-decoder.js?");
 
 /***/ }),
 
@@ -1259,18 +1259,6 @@ eval("\n/*\n * Copyright (C) 2017-2020 HERE Europe B.V.\n * Licensed under Apach
 
 "use strict";
 eval("\n/*\n * Copyright (C) 2017-2020 HERE Europe B.V.\n * Licensed under Apache 2.0, see full license in LICENSE\n * SPDX-License-Identifier: Apache-2.0\n */\nObject.defineProperty(exports, \"__esModule\", { value: true });\nexports.ExtrusionFeatureDefs = void 0;\nvar ExtrusionFeatureDefs;\n(function (ExtrusionFeatureDefs) {\n    /**\n     * Minimum ratio value for extrusion effect\n     */\n    ExtrusionFeatureDefs.DEFAULT_RATIO_MIN = 0.0;\n    /**\n     * Maximum ratio value for extrusion effect\n     */\n    ExtrusionFeatureDefs.DEFAULT_RATIO_MAX = 1;\n    /**\n     * Buildings height used whenever no height-data is present or height is very small.\n     *\n     * Used to avoid z-fighting between ground plane and building.\n     */\n    ExtrusionFeatureDefs.MIN_BUILDING_HEIGHT = 0.01;\n})(ExtrusionFeatureDefs = exports.ExtrusionFeatureDefs || (exports.ExtrusionFeatureDefs = {}));\n//# sourceMappingURL=MapMeshMaterialsDefs.js.map\n\n//# sourceURL=webpack:///./node_modules/@here/harp-materials/lib/MapMeshMaterialsDefs.js?");
-
-/***/ }),
-
-/***/ "./node_modules/@here/harp-omv-datasource/index-worker.js":
-/*!****************************************************************!*\
-  !*** ./node_modules/@here/harp-omv-datasource/index-worker.js ***!
-  \****************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-eval("\n/*\n * Copyright (C) 2017-2020 HERE Europe B.V.\n * Licensed under Apache 2.0, see full license in LICENSE\n * SPDX-License-Identifier: Apache-2.0\n */\nvar __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {\n    if (k2 === undefined) k2 = k;\n    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });\n}) : (function(o, m, k, k2) {\n    if (k2 === undefined) k2 = k;\n    o[k2] = m[k];\n}));\nvar __exportStar = (this && this.__exportStar) || function(m, exports) {\n    for (var p in m) if (p !== \"default\" && !exports.hasOwnProperty(p)) __createBinding(exports, m, p);\n};\nObject.defineProperty(exports, \"__esModule\", { value: true });\n__exportStar(__webpack_require__(/*! @here/harp-vectortile-datasource/index-worker */ \"./node_modules/@here/harp-vectortile-datasource/index-worker.js\"), exports);\nvar index_worker_1 = __webpack_require__(/*! @here/harp-vectortile-datasource/index-worker */ \"./node_modules/@here/harp-vectortile-datasource/index-worker.js\");\nObject.defineProperty(exports, \"OmvDecoder\", { enumerable: true, get: function () { return index_worker_1.VectorTileDataProcessor; } });\nObject.defineProperty(exports, \"OmvTileDecoderService\", { enumerable: true, get: function () { return index_worker_1.VectorTileDecoderService; } });\nObject.defineProperty(exports, \"OmvTileDecoder\", { enumerable: true, get: function () { return index_worker_1.VectorTileDecoder; } });\nObject.defineProperty(exports, \"OmvTilerService\", { enumerable: true, get: function () { return index_worker_1.GeoJsonTilerService; } });\n//# sourceMappingURL=index-worker.js.map\n\n//# sourceURL=webpack:///./node_modules/@here/harp-omv-datasource/index-worker.js?");
 
 /***/ }),
 

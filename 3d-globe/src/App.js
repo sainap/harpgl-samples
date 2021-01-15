@@ -3,13 +3,13 @@ import React, { useEffect, useRef } from "react";
 import { sphereProjection } from "@here/harp-geoutils";
 import { MapControls, MapControlsUI } from "@here/harp-map-controls";
 import { CopyrightElementHandler, MapView } from "@here/harp-mapview";
-import { OmvDataSource } from "@here/harp-omv-datasource";
+import { VectorTileDataSource } from "@here/harp-vectortile-datasource";
 import { theme } from "./config";
 
 const minZoomLevel = 3;
 const maxZoomLevel = 10;
 
-const baseMap = new OmvDataSource({
+const baseMap = new VectorTileDataSource({
   authenticationCode: process.env.REACT_APP_API_KEY,
 });
 

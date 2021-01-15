@@ -7,7 +7,7 @@
     "@here/harp-map-controls": "^0.21.1",
     "@here/harp-map-theme": "^0.21.1",
     "@here/harp-mapview": "^0.21.1",
-    "@here/harp-omv-datasource": "^0.21.1",
+    "@here/harp-vectortile-datasource": "^0.21.1",
     "normalize.css": "8.0.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
