@@ -1,4 +1,3 @@
-import { GeoJsonTilerService, VectorTileDecoderService } from "@here/harp-vectortile-datasource/index-worker";
+import { OmvTileDecoderService } from "@here/harp-omv-datasource/index-worker";
 
-VectorTileDecoderService.start();
-GeoJsonTilerService.start();
+OmvTileDecoderService.start();
