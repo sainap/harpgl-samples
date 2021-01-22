@@ -1,4 +1,4 @@
-# Getting Started with harp.gl 3d-globe react application
+# Getting Started with harp.gl and React
 
 ![](lib/3d-globe.gif)
 
